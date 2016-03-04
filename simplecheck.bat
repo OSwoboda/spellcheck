@@ -1,0 +1,1 @@
+java -cp saxon9he.jar;Spellcheck;Simplecheck;hunspell.jar;jna.jar net.sf.saxon.Transform -config:config.xml -s:document.xml -xsl:simplecheck.xslt
